@@ -1,10 +1,11 @@
 import React from 'react'
 import './Services.css'
-import HeartEmoji from "../../img/heartemoji.png";
+import Cards from '../Card/Card'
 import Glasses from "../../img/glasses.png";
-import Cards from '../Card/Cards';
-
-
+import HeartEmoji from "../../img/heartemoji.png";
+import Humble from "../../img/humble.png";
+import Card from '../Card/Card';
+import Resume from "C://Users//visha//portfolio-starter//src//Components//Services/Resume.pdf";
 const Services = () => {
   return (
     <div className="services">
@@ -14,30 +15,45 @@ const Services = () => {
         <span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             <br />
-            Officia harum sequi similique, nemo amet reprehenderit eum quo repellendus modi. Soluta beatae sunt ex modi atque cum rem reprehenderit corrupti assumenda!
+            Officia harum sequi similique, nemo 
         </span>
+        <a href={Resume} download>
         <button className="button s-button">Download CV</button>
-        <div className="blur s-blur1" style={{background:"#ABF1FF94"}}></div>
+        </a>
+        <div className="blur s-blur" style={{background:"#ABF1FF94"}}></div>
       </div>
       <div className="cards">
-        <div style={{left:'14rem'}}>
-        <Cards
+      <div style={{left:'14rem'}}>
+            <Card
             emoji={HeartEmoji}
             heading={"Design"}
             detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            
             />
         </div>
-        <div>
-        <Cards
+        <div style={{top: "12rem",left: "-4rem"}}>
+            <Card
             emoji={Glasses}
             heading={"Developer"}
             detail={"Html, Css, JavaScript, React, Nodejs, Express"}
           />
         </div>
-        <div>
-
+        <div style={{top: "19rem",left: "12rem"}}>
+            <Card
+            emoji={Humble}
+            heading={"UI/UX"}
+            detail={
+              "Lorem ispum dummy text are usually use in section where we need some random text"
+            }
+            color="rgba(252, 166, 31, 0.45)"
+          />
         </div>
+        <div
+          className="blur s-blur2"
+          style={{ background: "var(--purple)" }}
+        ></div>
       </div>
+      
     </div>
   )
 }
