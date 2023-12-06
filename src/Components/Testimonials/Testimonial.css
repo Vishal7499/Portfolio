@@ -78,3 +78,12 @@
         height: 70px;
     }
   }
+  @media screen and (max-width: 480px){
+    .t-wrapper{
+        padding: 0;
+    }
+    .testimonial>img{
+        width: 70px;
+        height: 70px;
+    }
+  }
