@@ -1,50 +1,40 @@
-import React, { useContext, useRef, useState } from "react";
-import "./Contact.css";
-import emailjs from "@emailjs/browser";
-import { themeContext } from "../../Context";
+import React, { useState } from 'react'
+import './Contact.css'
+import emailjs from '@emailjs/browser';
+import {useRef} from "react"
+import { useContext } from 'react';
+import { themeContext } from '../../Context';
 const Contact = () => {
-  const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
-  const form = useRef();
-  const [done, setDone] = useState(false)
+    const form = useRef();
+
+    const [done,setDone] = useState(false)
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
-        form.current,
-        "VLwg1ltOWvnCYAiK_"
-      )
-      .then(
-        (result) => {
+    emailjs.sendForm('service_69ntrs6', 'template_eec36va', form.current, "KOcV_Lu8Zx-CmLf8Z")
+      .then((result) => {
           console.log(result.text);
           setDone(true);
           form.reset();
-        },
-        (error) => {
+          
+      }, (error) => {
           console.log(error.text);
-        }
-      );
+      });
   };
 
+  const theme=useContext(themeContext);
+  const darkMode=theme.state.darkMode;
   return (
-    <div className="contact-form" id="contact">
-      {/* left side copy and paste from work section */}
-      <div className="w-left">
-        <div className="awesome">
-          {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
-          <span>Contact me</span>
-          <div
-            className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
-          ></div>
+    <div className="contact-form" id='Contact'>
+        <div className="w-left">
+            <div className="awesome">
+                <span style={{color: darkMode? 'white':''}}>Get in touch</span>
+                <span>Contact me</span>
+                
+            </div>
         </div>
-      </div>
-      {/* right side form */}
-      <div className="c-right">
+        <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
@@ -58,7 +48,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

@@ -6,7 +6,7 @@
     height: 30vh;
     margin-bottom: 8rem;
     /* darkmode */
-    color: var(--black);
+    /*color: var(--black);*/
   }
   .achievement{
       display: flex;
@@ -25,6 +25,7 @@
       font-size: 1.5rem;
       font-weight: bold;
       margin-bottom: 2rem;
+      color: black;
   }
   .circle::before {
       border-radius: 100%;

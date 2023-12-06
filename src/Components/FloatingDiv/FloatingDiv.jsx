@@ -1,9 +1,12 @@
 import React from "react";
 
 import './FloatingDiv.css'
-
+/*import { themeContext } from "../../Context";
+import { useContext } from "react";*/
 
 const FloatinDiv = ({img, txt1, txt2}) => {
+  /*const theme=useContext(themeContext);
+  const darkMode=theme.state.darkMode;*/
   return (
     // darkMode
     <div className="floatingDiv">

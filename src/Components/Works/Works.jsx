@@ -1,42 +1,46 @@
 import React from 'react'
-import Upwork from "../../img/Upwork.png";
+import Java from "../../img/java.png";
 import './Works.css'
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import HTML from "../../img/html.png";
+import Reactjs from "../../img/react.png";
+import Mysql from "../../img/mysql.png";
+import Data from "../../img/data.png";
+import { useContext } from 'react';
+import { themeContext } from '../../Context';
+import { Link } from 'react-scroll'
 const Works = () => {
+  const theme=useContext(themeContext);
+  const darkMode=theme.state.darkMode;
   return (
     <div className="Works">
       <div className="awesome">
-        <span>Works for all these</span>
-        <span>Brands & Clients</span>
+        <span style={{color: darkMode? 'white':''}}>Works with all these</span>
+        <span>Tech Stack</span>
         <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            <br />
-            Officia harum sequi similique, nemo 
+        Proficient in a diverse technology stack encompassing front-end and back-end languages,<br />
+         frameworks, and databases for crafting dynamic and innovative solutions 
         </span>
-        
-        <button className="button s-button">Hire me</button>
-        
+        <Link to="Contact" spy={true} smooth={true}>
+        <button className="button s-button">Contact me</button>
+        </Link>
         <div className="blur s-blur" style={{background:"#ABF1FF94"}}></div>
       </div>
       <div className="w-right">
        <div className="w-mainCircle">
         <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={Java} alt="" />
         </div>
         <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={HTML} alt="" />
         </div>
         <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Reactjs} alt="" />
         </div>
         <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Mysql} alt="" />
         </div>
         <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Data} alt="" />
         </div>
         </div> 
         <div className="w-backCircle blueCircle"></div>
