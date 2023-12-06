@@ -12,17 +12,17 @@ const Testimonial = () => {
         {
             img: Tns1,
             review:
-              "TNS India Foundation envisages India to develop into a country with highly skilled workforce, inclusive and thriving communities, and access to equal opportunity across distinctions of gender and income."
+              "TNS India Foundation envisages India to develop into a country with highly skilled workforce, inclusive and thriving communities."
           },
           {
             img: TataStrive,
             review:
-              " Tata STRIVE is an initiative by the Tata Group focused on skill development and vocational training. It aims to enhance employability and bridge the skills gap in various industries.",
+              " Tata STRIVE is an initiative by the Tata Group focused on skill development and vocational training. It aims to enhance employability."
           },
           {
             img: GoogleData,
             review:
-              "The Google Data Analytics Professional Certificate is designed to teach individuals the foundational skills needed for a career in data analytics. The course covers a range of topics including data analysis, data visualization, SQL (Structured Query Language), and more. ",
+              "The Google Data Analytics Professional Certificate is designed to teach individuals the foundational skills needed for a career in data analytics." 
           },
           /*{
             img: profilePic4,

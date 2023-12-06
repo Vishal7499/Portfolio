@@ -31,10 +31,11 @@ const Works = () => {
             <img src={Java} alt="" />
         </div>
         <div className="w-secCircle">
-            <img src={HTML} alt="" />
+            
+            <img src={Reactjs} alt="" />
         </div>
         <div className="w-secCircle">
-            <img src={Reactjs} alt="" />
+        <img src={HTML} alt="" />
         </div>
         <div className="w-secCircle">
             <img src={Mysql} alt="" />

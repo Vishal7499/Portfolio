@@ -53,12 +53,12 @@ const Intro = () => {
         initial={{left:"-36%"}}
         whileInView={{left:"-24%"}}
         transition={Transition}
-        src={glassesimoji} alt="" />
-        <div style={{top:'-4%',left:'68%'}}>
+        src={glassesimoji} alt="" /> 
+        <div style={{top:'-10%',left:'100%'}}>
           <FloatinDiv img={crown} txt1="web" txt2="Developer"/>
         </div>
         <div style={{top:'18rem',left:'0rem'}}>
-        <FloatinDiv img={thumbup} txt1="Java" txt2="Developer" />
+        <FloatinDiv img={thumbup} txt1="FullStack" txt2="Developer" />
         </div>
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div
