@@ -87,12 +87,16 @@ transform: scale(0.17);
       padding: 0;
       gap: 5rem;
     }
+    .w-right{
+        position:relative;
+    }
   
     .w-right {
       display: flex;
       align-items: flex-start;
       justify-content:start;
       transform: scale(0.7);
+      
     }
     .w-mainCircle{
       position: static;

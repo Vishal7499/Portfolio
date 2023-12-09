@@ -23,7 +23,7 @@ const Intro = () => {
     <div className="Intro">
       <div className="i-left">
       <div className="i-name">
-        <span style={{color:darkMode? 'white': ""}}>Hey! I Am</span>
+        <span style={{color:darkMode? 'white': ""}}>Hey! <br /> I Am</span>
         <span>Vishal Markad</span>
         <span>
         A seasoned Fullstack Developer with a high level of experience in Java, web development, and databases, dedicated to producing quality work.
@@ -54,7 +54,8 @@ const Intro = () => {
         whileInView={{left:"-24%"}}
         transition={Transition}
         src={glassesimoji} alt="" /> 
-        <div style={{top:'-10%',left:'100%'}}>
+        
+        <div style={{top:'-20%',left:'50%'}}>
           <FloatinDiv img={crown} txt1="web" txt2="Developer"/>
         </div>
         <div style={{top:'18rem',left:'0rem'}}>

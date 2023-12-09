@@ -41,11 +41,15 @@ const Contact = () => {
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
+          
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
           ></div>
         </form>
+        <div>
+        <button className="button">Send</button>
+        </div>
       </div>
     </div>
   )
