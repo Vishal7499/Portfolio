@@ -49,7 +49,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Database"}
             detail={
-              "MySQL,MongoDB,SQLite"
+              "MySQL,MongoDB, SQLite"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

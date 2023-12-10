@@ -43,6 +43,8 @@
     margin-top: 0rem;
     display: flex;
     gap: 0rem;
+  margin-left: -2rem;
+  
   }
   .i-icons > * {
     transform: scale(0.5);

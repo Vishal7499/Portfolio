@@ -17,7 +17,7 @@ const Testimonial = () => {
           {
             img: TataStrive,
             review:
-              " Tata STRIVE is an initiative by the Tata Group focused on skill development and vocational training. It aims to enhance employability."
+              "Tata STRIVE is an initiative by the Tata Group focused on skill development and vocational training. It aims to enhance employability."
           },
           {
             img: GoogleData,
