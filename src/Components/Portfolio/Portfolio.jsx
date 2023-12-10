@@ -3,7 +3,7 @@ import './Portfolio.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import "swiper/css";
 import Sidebar from "../../img/portfolio.png";
-import Ecommerce from "../../img/portfolio.png";
+import Ecommerce from "../../img/fitclub.png";
 import HOC from "../../img/portfolio.png";
 import MusicApp from "../../img/portfolio.png";
 import { themeContext } from '../../Context';

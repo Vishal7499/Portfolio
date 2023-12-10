@@ -18,19 +18,19 @@
   
   .awesome > :nth-child(1) {
     /*color: var(--black);*/
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   .awesome > :nth-child(2) {
     color: var(--orange);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   .awesome > :nth-child(3) {
     color: var(--gray);
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 1rem;
-    text-align: justify;
+    text-align: space-around;
   }
   .s-button {
     width: 8rem;

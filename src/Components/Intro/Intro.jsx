@@ -55,7 +55,7 @@ const Intro = () => {
         transition={Transition}
         src={glassesimoji} alt="" /> 
         
-        <div style={{top:'-20%',left:'50%'}}>
+        <div style={{top:'-10%',left:'60%'}}>
           <FloatinDiv img={crown} txt1="web" txt2="Developer"/>
         </div>
         <div style={{top:'18rem',left:'0rem'}}>

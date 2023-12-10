@@ -26,7 +26,7 @@
 
 .n-list{
     flex: 1;
-    /*color: var(--black);*/
+    color: var(--black);
 }
 .n-list>ul{
     display: flex;

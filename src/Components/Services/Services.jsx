@@ -17,7 +17,10 @@ const Services = () => {
         <span>My Awesome</span>
         <span style={{color: darkMode? 'white':''}}>Skills</span>
         <span>
-        Versatile full-stack developer proficient in creating seamless, innovative solutions for  optimal user <br />experiences. Expertise spans both front-end and back-end technologies.
+        Versatile full-stack developer 
+        proficient in creating seamless, <br />
+        innovative solutions for  optimal user experiences. Expertise
+        spans both front-end and back-end technologies.
         </span>
         <a href={Resume} download>
         <button className="button s-button">Download CV</button>

@@ -14,11 +14,15 @@ const Works = () => {
   return (
     <div className="Works">
       <div className="awesome">
-        <span style={{color: darkMode? 'white':''}}>Works with all these</span>
-        <span>Tech Stack</span>
+        <span style={{color: darkMode? 'white':''}}>Work with</span>
+        <span>Tech_Stack</span>
         <span>
-        Proficient in a diverse technology stack encompassing front-end and back-end languages,<br />
-         frameworks, and databases for crafting dynamic and innovative solutions 
+        Proficient in a diverse technology stack 
+         encompassing <br />
+          front-end and back-end languages,
+         frameworks, and <br />
+          databases for crafting dynamic
+          and innovative solutions 
         </span>
         <Link to="Contact" spy={true} smooth={true}>
         <button className="button s-button">Contact me</button>
@@ -38,10 +42,10 @@ const Works = () => {
         <img src={HTML} alt="" />
         </div>
         <div className="w-secCircle">
-            <img src={Mysql} alt="" />
+            <img src={Data} alt="" />
         </div>
         <div className="w-secCircle">
-            <img src={Data} alt="" />
+            <img src={Mysql} alt="" />
         </div>
         </div> 
         <div className="w-backCircle blueCircle"></div>

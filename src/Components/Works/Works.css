@@ -1,12 +1,24 @@
 .Works{
-    padding: 0 3 rem 0 3rem;
+    padding: 0 3 0 3rem;
     display: flex;
-    height:90vh;
+    height:110vh;
     margin-top:4rem;
     text-align: justify;
 }
 .w-right{
     position:relative;
+}
+.awesome > :nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+}
+.awesome > :nth-child(2){
+    font-size: 2rem;
+    font-weight: bold;
+}
+.awesome > :nth-child(3){
+    text-align: left !important;
+    font-size: 15px;
 }
 
 .w-mainCircle{
@@ -78,25 +90,32 @@ transform: scale(0.17);
     top: 8rem;
 }
 .s-button{
-   margin-top:40px;
+   margin-top:80px;
 }
 @media screen and (max-width: 480px) {
     .works {
       flex-direction: column;
-      height: 55rem;
+      height: 90rem;
       padding: 0;
       gap: 5rem;
     }
-    .w-right{
-        position:relative;
-    }
+   
+    
   
     .w-right {
       display: flex;
       align-items: flex-start;
       justify-content:start;
-      transform: scale(0.7);
+      transform: scale(0.6);
+      left:-13rem;
+      top: 8rem;
       
+      
+      
+
+    }
+    s-button{
+        display: none;
     }
     .w-mainCircle{
       position: static;
@@ -106,3 +125,5 @@ transform: scale(0.17);
     }
   
   }
+  
+  

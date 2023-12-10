@@ -43,13 +43,17 @@ textarea{
 }
 @media screen and (max-width: 480px) {
     .contact-form{
-        padding: 0;
+        padding:0;
         flex-direction: column;
-        gap: 5rem;
+        gap: 3rem;
         height: 40rem;
+        .button{
+            display: inline-block;
+        }
     }
     .c-right .user{
-        width: 16rem;
+        width: 12rem;
     }
+    
 
 }   
