@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6c03aecc.css",
-    "main.js": "/Portfolio/static/js/main.b8c2438e.js",
+    "main.js": "/Portfolio/static/js/main.0756e9e3.js",
     "static/media/fitclub.png": "/Portfolio/static/media/fitclub.0623aa58789e02365ace.png",
     "static/media/portfolio.png": "/Portfolio/static/media/portfolio.1b82248b0dd4ff0fae39.png",
     "static/media/googleDataAnalytics.png": "/Portfolio/static/media/googleDataAnalytics.b29b841963319e017f36.png",
@@ -23,10 +23,10 @@
     "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Portfolio/index.html",
     "main.6c03aecc.css.map": "/Portfolio/static/css/main.6c03aecc.css.map",
-    "main.b8c2438e.js.map": "/Portfolio/static/js/main.b8c2438e.js.map"
+    "main.0756e9e3.js.map": "/Portfolio/static/js/main.0756e9e3.js.map"
   },
   "entrypoints": [
     "static/css/main.6c03aecc.css",
-    "static/js/main.b8c2438e.js"
+    "static/js/main.0756e9e3.js"
   ]
 }
