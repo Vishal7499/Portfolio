@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.25f6f7ea.css",
-    "main.js": "/Portfolio/static/js/main.c16db27c.js",
+    "main.css": "/Portfolio/static/css/main.5de35f47.css",
+    "main.js": "/Portfolio/static/js/main.645368ea.js",
+    "static/media/fitclub.png": "/Portfolio/static/media/fitclub.0623aa58789e02365ace.png",
     "static/media/portfolio.png": "/Portfolio/static/media/portfolio.1b82248b0dd4ff0fae39.png",
     "static/media/googleDataAnalytics.png": "/Portfolio/static/media/googleDataAnalytics.b29b841963319e017f36.png",
     "static/media/tns1.png": "/Portfolio/static/media/tns1.a86fad200b0308da20eb.png",
@@ -21,11 +22,11 @@
     "static/media/Vector2.png": "/Portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Portfolio/index.html",
-    "main.25f6f7ea.css.map": "/Portfolio/static/css/main.25f6f7ea.css.map",
-    "main.c16db27c.js.map": "/Portfolio/static/js/main.c16db27c.js.map"
+    "main.5de35f47.css.map": "/Portfolio/static/css/main.5de35f47.css.map",
+    "main.645368ea.js.map": "/Portfolio/static/js/main.645368ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.25f6f7ea.css",
-    "static/js/main.c16db27c.js"
+    "static/css/main.5de35f47.css",
+    "static/js/main.645368ea.js"
   ]
 }
