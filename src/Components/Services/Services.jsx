@@ -5,7 +5,7 @@ import Glasses from "../../img/glasses.png";
 import HeartEmoji from "../../img/heartemoji.png";
 import Humble from "../../img/humble.png";
 import Card from '../Card/Card';
-import Resume from "C://Users//visha//portfolio-starter//src//Components//Services/Resume.pdf";
+import Resume from "C://Users//visha//Portfolio//src//Components//Services/Resume.pdf";
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 const Services = () => {
